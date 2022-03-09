@@ -25,6 +25,25 @@
 body {
 }
 
+/* HEADER */
+
+/* NAVIGATION */
+
+.hamburger-menu {
+  cursor: pointer;
+  display: block;
+}
+
+.header__nav {
+}
+
+/* HEADER TEXT */
 .skyblue {
   background: #40bcfc;
+}
+
+@media screen and (min-width: 767px) {
+  .hamburger-menu {
+    display: none;
+  }
 }
