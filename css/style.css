@@ -92,7 +92,7 @@ header {
 
 .overlay-mobile {
   position: relative;
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: var(--white);
   position: fixed;
@@ -102,6 +102,10 @@ header {
   height: 310px;
   justify-content: center;
   align-items: center;
+
+  z-index: 999;
+
+  transition: display 0.3s ease;
 }
 .overlay-mobile::before {
   display: block;
@@ -114,6 +118,9 @@ header {
   transform: translateY(-30px);
   border-bottom: 30px solid var(--white);
   border-left: 30px solid transparent;
+}
+.show {
+  display: flex;
 }
 @media screen and (min-width: 815px) {
   .overlay-mobile {
@@ -254,4 +261,8 @@ header {
 }
 
 .arrow-down {
+  display: block;
+}
+.hide {
+  display: none;
 }
