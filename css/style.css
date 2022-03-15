@@ -337,7 +337,7 @@ header {
     text-align: left;
     justify-content: center;
     align-items: flex-start;
-    max-width: 460px;
+    max-width: 46rem;
     margin-left: 7rem;
     padding: 0;
   }
@@ -362,7 +362,7 @@ header {
   .info__section-header {
     margin: 0;
     font-size: var(--fs-large);
-    max-width: 450px;
+    max-width: 45rem;
   }
 }
 
@@ -489,7 +489,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2.8rem;
-  max-width: 330px;
+  max-width: 33rem;
   padding-bottom: 6.5rem;
   margin-inline: 2rem;
 }
@@ -580,7 +580,7 @@ header {
   font-family: var(--ff-heading);
   line-height: 1.7;
   color: var(--very-dark-grayish-blue);
-  max-width: 400px;
+  max-width: 40rem;
   margin: 0 auto;
 }
 @media screen and (min-width: 1024px) {
