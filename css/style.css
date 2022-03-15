@@ -362,7 +362,7 @@ header {
   .info__section-header {
     margin: 0;
     font-size: var(--fs-large);
-    max-width: 330px;
+    max-width: 450px;
   }
 }
 
