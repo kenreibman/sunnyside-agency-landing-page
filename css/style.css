@@ -32,7 +32,7 @@
 body {
 }
 .bg-container {
-  background-image: url('./images/mobile/image-header.jpg');
+  background-image: url('../images/mobile/image-header.jpg');
   min-height: 540px;
   background-position: center 70%;
   background-size: cover;
@@ -42,7 +42,7 @@ body {
 @media screen and (min-width: 815px) {
   .bg-container {
     min-height: 800px;
-    background-image: url('./images/desktop/image-header.jpg');
+    background-image: url('../images/desktop/image-header.jpg');
   }
 }
 
